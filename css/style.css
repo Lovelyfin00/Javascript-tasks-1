@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #E7F3F1;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 30%;
+    margin: auto;
+    border: 2px dotted white;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 1.5em 2.5em -.5em rgba(#000000, .1);
+    transition: 0.45s ease-in-out;
+}
+.card:hover{
+    background-color: #753BBD;
+    transform: translateX(100px);
+    color: white;
+    border: 2px solid #753BBD;
+}
+.card:hover .card-text .team-lead{
+    color: #FF8D29;
+}
+.card .card-img{
+    width: 100%;
+}
+.card .card-img img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card-text{
+    padding: 15px;
+}
+.card:hover .card-text .team-name{
+    color:#E7F3F1;
+}
+.card-text h3, .card-text h4{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.card-text ul{
+    list-style: none;
+}
+.card-text ul li{
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
