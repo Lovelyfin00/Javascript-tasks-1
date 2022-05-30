@@ -57,13 +57,13 @@ almightyFormla = (a, b, c) => {
     let firstRoot = Math.floor(((-1 * b + Math.sqrt(b**2 - 4*a*c))/2*a));
     let secondRoot = Math.floor(((-1 * b - Math.sqrt(b**2 - 4*a*c))/2*a));
 
-    return ('The first root of te quandratic equation is ' + firstRoot + ' while the second root of the quandratic equation is ' + secondRoot);
+    return ('The first root of the quandratic equation is ' + firstRoot + ' while the second root of the quandratic equation is ' + secondRoot);
 }
 console.log(almightyFormla(1,-8,5));
 
 
 
-// Questio 8
+// Question 8
 
 
 const myNoun = "dog";
